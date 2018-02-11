@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SearchBar from '.components/search_bar';
 
 class App extends Component {
   render() {
@@ -15,6 +16,11 @@ class App extends Component {
         </p>
       </div>
     );
+    return ( 
+      <div className="Search-bar">
+        <SearchBar />
+      </div>
+    )
   }
 }
 
