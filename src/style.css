@@ -10,4 +10,11 @@
 
 .product-list {
   text-align: center;
+  border: 1px solid rgb(128, 162, 164);
+  margin: 30px 300px 10px 300px;
+  padding: 30px;
+}
+
+.product-item {
+  text-align: left;
 }
