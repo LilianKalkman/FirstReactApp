@@ -1,5 +1,4 @@
 import React from 'react';
-import ProductList from './list_products';
 
 const ProductItem = () => {
   const products = ['Yogabroek', 'Shirt', 'Broekje']
